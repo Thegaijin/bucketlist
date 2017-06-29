@@ -117,10 +117,9 @@ blockquote {
     text-decoration: none;
 }
 
-
-/*.form .register-form {
+.form .register-form {
     display: none;
-}*/
+}
 
 .container {
     position: relative;
