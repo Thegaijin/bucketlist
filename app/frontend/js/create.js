@@ -1,6 +1,5 @@
-var main = function() {
-    $('a.account').click(function() {
+$(document).ready(function() {
+    $('a.account').on('click', function() {
         $('form').animate({ height: "toggle", opacity: "toggle" }, "slow");
     });
-}
-$(document).ready(main);
+});
