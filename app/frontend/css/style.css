@@ -117,7 +117,8 @@ blockquote {
     text-decoration: none;
 }
 
-.form .register-form {
+.form .register-form,
+.list-form {
     display: none;
 }
 
