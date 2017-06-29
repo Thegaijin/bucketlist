@@ -32,7 +32,7 @@ blockquote {
 }
 
 .list-title {
-    padding: 2% 0 0;
+    padding: 2% 0 1%;
     font-size: 50px;
     text-align: center;
 }
@@ -57,8 +57,9 @@ blockquote {
 
 .list-container {
     width: 1000px;
-    padding: 1% 0 0;
+    /*padding: 1% 0 0;*/
     margin: auto;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
 .form {
@@ -69,7 +70,7 @@ blockquote {
     margin: 0 auto 0;
     padding: 45px;
     text-align: center;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    /*box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);*/
 }
 
 .form input {
