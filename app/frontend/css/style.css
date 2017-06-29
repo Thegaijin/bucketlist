@@ -32,7 +32,8 @@ blockquote {
 }
 
 .list-title {
-    font-size: 70px;
+    padding: 2% 0 0;
+    font-size: 50px;
     text-align: center;
 }
 
@@ -42,7 +43,7 @@ blockquote {
     font-size: 20px;
     font-weight: 200;
     padding: 0 15px 5px 15px;
-    margin: 0 auto;
+    margin: 0 15px;
     align-content: center;
     border-radius: 30px;
     border-color: #3aa0ea;
@@ -65,7 +66,7 @@ blockquote {
     z-index: 1;
     background: #FFFFFF;
     max-width: 1000px;
-    margin: 0 auto 100px;
+    margin: 0 auto 0;
     padding: 45px;
     text-align: center;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
@@ -161,6 +162,24 @@ blockquote {
     color: #EF3B3A;
 }
 
+#list-box {
+    padding-bottom: 45px;
+    margin-bottom: 30px;
+}
+
+.list-buttons,
+.close-lists {
+    /*width: 50%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;*/
+    padding: 5px 0 0 0;
+    float: left;
+    text-align: center;
+    background: white;
+}
+
 .new-list {
     float: left;
     background: green;
@@ -179,18 +198,29 @@ blockquote {
     color: white;
 }
 
-.close-lists {
-    padding: 15px 15px 0 0;
-    float: left;
-    text-align: center;
-}
-
 .save-lists {
     float: left;
+    background: green;
+    color: white;
 }
 
 .cancel {
     float: left;
+    background: black;
+    color: white;
+}
+
+ul {
+    width: 1000px;
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    /*padding-left: 20px;
+    padding-right: 20px;*/
+    padding-top: 5px;
+    text-align: center;
 }
 
 body {
