@@ -173,9 +173,9 @@ blockquote {
     border: 0;
     margin: 0 0 15px;
     padding: 15px;
-    box-sizing: border-box;*/
+    box-sizing: border-box;
+    float: left;*/
     padding: 5px 0 0 0;
-    float: left;
     text-align: center;
     background: white;
 }
@@ -211,7 +211,7 @@ blockquote {
 }
 
 ul {
-    width: 1000px;
+    width: 900px;
     list-style: none;
 }
 
